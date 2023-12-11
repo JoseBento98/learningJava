@@ -2,10 +2,10 @@ package Client;
 
 public class Client {
 
-    String name;
-    String childOrAdult;
-    int yearOld;
-    int socialRegistration;
+   private String name; //encapsulation
+    private String childOrAdult;
+    private int yearOld;
+    private int socialRegistration;
 
     public Client (String name,String childOrAdult, int yearOld, int socialRegistration){ // constructor
         this.name = name;
@@ -19,5 +19,14 @@ public class Client {
         this.childOrAdult = childOrAdult;
         this.yearOld = yearOld;
     }
+
+    public void setName(String name) { // setter
+        this.name= name;
+    }
+
+    public String getName(){ //getter
+        return name;
+    }
+
 
 }
