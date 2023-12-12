@@ -5,12 +5,12 @@ import java.util.Scanner;
 import Client.Client;
 import Payments.Payments;
 import test.testprint;
-package Payments;
-package testprint;
+
 
 public class appMovieTheater {
 
     public static void main(String[] args) {
+
 
         Locale.setDefault(Locale.US);
 
@@ -31,8 +31,7 @@ public class appMovieTheater {
 
             if (localCode == 1){
                 //Client 1 = new Client();
-                testprint.class   instancia1 = new testprint.class();
-                Client.Client
+                testprint testPrintInstance1 = new testprint();
                 
             }
 

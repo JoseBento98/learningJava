@@ -1,5 +1,7 @@
 package test;
 
 public class testprint {
-    System.out.println("testing");
+    public static void main(String[] args) {
+        System.out.println("testing");
+    }
 }

@@ -9,7 +9,7 @@ public class Payments {
     String voucher;
 
     public class pix {
-        System.out.println("Pago em Pix!")
+        //System.out.println("Pago em Pix!")
     }
 
 
