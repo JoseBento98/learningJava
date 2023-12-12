@@ -1,3 +1,5 @@
+package Payments;
+
 public class Payments {
 
     double pix;

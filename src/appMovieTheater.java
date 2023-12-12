@@ -3,8 +3,10 @@
 import java.util.Locale;
 import java.util.Scanner;
 import Client.Client;
+import Payments.Payments;
 import test.testprint;
-
+package Payments;
+package testprint;
 
 public class appMovieTheater {
 
@@ -16,7 +18,7 @@ public class appMovieTheater {
         System.out.println("Enter a Code");
         System.out.println("[0] --- Exite Program");
         System.out.println("[1] --- New Client");
-        System.out.println("[2] --- Payments");
+        System.out.println("[2] --- Payments.Payments");
         System.out.println("[3] --- Data Client");
         System.out.println("[4] --- Check list");
         System.out.println("[5] --- Nt");
@@ -29,7 +31,8 @@ public class appMovieTheater {
 
             if (localCode == 1){
                 //Client 1 = new Client();
-                //testprint 1 = new testprint();
+                testprint.class   instancia1 = new testprint.class();
+                Client.Client
                 
             }
 
