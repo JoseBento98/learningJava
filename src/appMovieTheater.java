@@ -11,6 +11,8 @@ public class appMovieTheater {
 
     public static void main(String[] args) {
 
+        testprint tp;
+
 
         Locale.setDefault(Locale.US);
 
@@ -30,8 +32,13 @@ public class appMovieTheater {
             System.out.println("initialized program");
 
             if (localCode == 1){
-                //Client 1 = new Client();
-                testprint testPrintInstance1 = new testprint();
+
+
+                System.out.println("Enter a text: ");
+                String txt = sc.nextLine();
+
+                tp = new testprint(txt);
+                System.out.println(tp);
                 
             }
 
